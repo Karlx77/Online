@@ -14,3 +14,4 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('reporte/productos-vendidos','Reporte@productos_por_depatamento');
